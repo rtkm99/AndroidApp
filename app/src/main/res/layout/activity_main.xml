@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kevinmijwaart.myapplication.MainActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="64dp"
+            android:layout_marginLeft="64dp"
+            android:cropToPadding="true"
+            android:src="@drawable/henry_schein" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/blue"
+            android:elevation="5dp"
+            android:text="Scanner"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginBottom="16dp"
+            android:text="Druk op de 'Scanner' knop om de Scanner te activeren."
+            android:textSize="22dp"
+            android:id="@+id/textView" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
